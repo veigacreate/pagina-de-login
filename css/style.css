@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(34, 31, 31, 0.658);
+    background-image: url(/img/pexels-ming-hsi-hsieh-18276986.jpg);
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-44%, -50%);
+    padding: 10px;
+    width: 95vw;
+   
+}
+.cadastro{
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(34, 31, 31, 0.658);
+}
+
+.cadastro-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #131212;
+}
+input{
+    padding: 0px ;
+outline: none;
+padding: 15px;
+font-size: 15px;
+}
+button{
+    margin: auto;
+    background-color: rgb(39, 39, 39);
+    width: 100px;
+    color: white;
+    padding: 3px;
+    border: solid 5px rgb(26, 20, 20);
+    border-radius: 15px;
+}
+
+img{
+    width: 50vw;
+    height: 50vw;
+}
+
+@media only screen and (max-width: 450px) {
+    img{
+        display: none;
+        visibility: hidden;
+    }
+
+    .cadastro{
+        width: 100vw;
+        height: 100dvh;
+        background-color: transparent;
+        padding: 0px;
+        display: block;
+        margin: auto;
+    }
+
+    .cadastro-itens{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
