@@ -7,8 +7,9 @@
 }
 body{
     background-color: rgba(34, 31, 31, 0.658);
-    background-image: url(/img/pexels-ming-hsi-hsieh-18276986.jpg);
+    background-image: url(https://images.pexels.com/photos/3635300/pexels-photo-3635300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 main{
